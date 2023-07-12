@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@300&display=swap');
+
+
+.weatherDetailsMain {
+    height: 200px;
+    width: 410px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-color: #a2d2ff;
+    font-family: 'Ysabeau Infant', sans-serif;
+    border-radius: 20px;
+    position: relative;
+    left: -5px;
+}
+
+.sunPos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.timing {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.sunrise {
+    background-image: url(./images/sunrise.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+
+}
+
+.sunset {
+    background-image: url(./images/sunset.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.humCloud {
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+    width: 50%;
+}
+
+.hum_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hum_image {
+    background-image: url(./images/humid.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 70px;
+    width: 70px;
+}
+
+.windImage {
+    background-image: url(./images/anemometer.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.windGroup {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.windInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.tempWind {
+    display: flex;
+    gap: 35px
+}
+
+.temp {
+    height: 130px;
+    width: 150px;
+    position: relative;
+    top: -85px;
+    left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+    font-size: 120px;
+}
+
+.degree {
+    background-image: url(./images/weather.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80px;
+    width: 80px;
+}

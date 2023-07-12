@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.formContainer {
+    width: 400px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #dde5b6;
+    color: #582f0e;
+    border-radius: 20px;
+}
+
+.projectTitle {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: #014f86;
+}
+
+.inputGroup {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+.mainContainer {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 80px;
+}
+
+.emptyMessage {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 400px;
+    background-color: #a2d2ff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+}
+
+.submitButton {
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.projectBlock {
+    color: white;
+}
